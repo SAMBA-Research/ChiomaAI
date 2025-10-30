@@ -115,8 +115,8 @@ pipeline {
                             // SECRET = "${PROD_SECRET}"
                         } else if (BRANCH_NAME.trim() == 'staging') {
                             echo "Setting NAMESPACE to STAGING_NAMESPACE"
-                            // NAMESPACE = "${STAGING_NAMESPACE}"
-                            NAMESPACE = "${TEST_NAMESPACE}"
+                            NAMESPACE = "${STAGING_NAMESPACE}"
+                            // NAMESPACE = "${TEST_NAMESPACE}"
 
                             // SECRET = "${STAGING_SECRET}"
                         } else {
