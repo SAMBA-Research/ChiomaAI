@@ -48,5 +48,5 @@ env/
 Thumbs.db
 
 # Development files
-research_db/
+# research_db/
 ocr_data_output/

@@ -82,7 +82,7 @@ def ask_question(payload: QueryRequest):
             "question": payload.question,
             "answer": answer,
             "sources": sources[0]["title"],
-            "sources": sources #this can be removed it shows all the sources
+            #"sources": sources #this can be removed it shows all the sources
         }
     except Exception as e:
         return {"error": str(e)}
