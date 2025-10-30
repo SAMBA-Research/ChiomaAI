@@ -190,7 +190,7 @@ pipeline {
                         sh '''
                         pwd
                         rm -rf devops-products tmp.txt
-                        ls -a
+                        ls 
                         '''
                     } catch (Exception e) {
                         currentBuild.result = 'FAILURE'
