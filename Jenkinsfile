@@ -12,7 +12,6 @@ pipeline {
         CI_SSH_KEY = credentials('github_auth')
         PROD_NAMESPACE = credentials('chioma-prod-namespace')
         STAGING_NAMESPACE = credentials('chioma-staging-namespace')
-        TEST_NAMESPACE = credentials('chioma-test-namespace')
         PERSONAL_ACCESS_TOKEN = credentials('personal_access_token')
         GITHUB_USER = credentials('github_user')
         PROD_CLUSTER = credentials('prod-cluster')
